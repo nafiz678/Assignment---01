@@ -13,7 +13,7 @@
 
 * {
     font-family: "Azeret Mono", monospace;
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
 }
 
 
@@ -44,7 +44,7 @@ nav ul li {
     line-height: 22px;
     letter-spacing: 0%;
     text-align: center;
-    
+
 }
 
 /* Banner section */
@@ -106,6 +106,7 @@ nav ul li {
     margin: 74px 150px;
 }
 
+
 .container-2 {
     margin: 80px 90px;
     padding-top: 60px;
@@ -145,7 +146,7 @@ nav ul li {
     justify-content: space-between;
     margin-bottom: 100px;
     border-radius: 16px;
-    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
 }
 
 .cont-2-child-1,
@@ -196,13 +197,13 @@ nav ul li {
     justify-content: space-between;
     margin-bottom: 110px;
     border-radius: 16px;
-    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
 }
 
 .box-3-child-1 {
     margin-left: 65px;
     margin-right: 40px;
-    width: 420px;
+    width: 450px;
     height: 220px;
 }
 
@@ -211,5 +212,148 @@ nav ul li {
     justify-content: space-between;
     margin-bottom: 90px;
     border-radius: 16px;
-    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+}
+
+/* My inspiration section */
+
+.sec-3 {
+    margin: 0px auto;
+    width: 1000px;
+    height: 774px;
+    padding: 0px 150px;
+    text-align: center;
+}
+
+.sec-3-box-1 {
+    padding: 0px 65px;
+    margin-bottom: 40px;
+}
+
+.sec-3-box-1-description {
+    font-size: 14px;
+}
+
+.sec-3-img {
+    width: 100%;
+    height: 550px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+iframe {
+    width: 95%;
+    height: 500px;
+    border-radius: 16px;
+}
+
+/* Cards section */
+.sec-4-box-1-description {
+    margin-bottom: 45px;
+}
+
+.sec-4 {
+    width: 1000px;
+    height: 774px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.cards {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 30px;
+    width: 1100px;
+}
+
+.card {
+    border-radius: 16px;
+    padding: 33px;
+    text-align: left;
+    width: 247px;
+    height: 220px;
+    margin-bottom: 100px;
+}
+
+.card-1 {
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.card-3 {
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.card-2 {
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.card-1 a,
+.card-2 a,
+.card-3 a {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+.card-1-title {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.card-1-description {
+    color: rgb(13, 19, 33);
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    opacity: 0.7;
+}
+/* Extra section */
+.cards-2{
+    margin-bottom: 5px;
+}
+.react-card {
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 34px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.react-title{
+    color: rgb(13, 19, 33);
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.react-description{
+    color: rgb(13, 19, 33);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.react-card a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
 }
